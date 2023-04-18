@@ -3,7 +3,7 @@
 .topnav{
     @include flex(center, space-between);
     margin-bottom: $spacing;
-    background-color: red;
+    
 
     @include tablet{
         margin-bottom: $mobileSpacing;
