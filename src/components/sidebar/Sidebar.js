@@ -25,7 +25,7 @@ const Sidebar = () => {
     setTimeout(() => {
       document.body.classList.remove("sidebar-open");
       document.querySelector(".main_content").style = "";
-    }, 500);
+    }, 600);
   };
 
   return (

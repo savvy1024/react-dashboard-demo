@@ -11,3 +11,4 @@
     - Boxicons: https://boxicons.com/
     - Figma: https://www.figma.com/
     - chartjs https://www.chartjs.org
+    - React-circular-progressbar  https://github.com/kevinsqi/react-circular-progressbar#readme
