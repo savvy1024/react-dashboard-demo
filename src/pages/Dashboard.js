@@ -19,6 +19,8 @@ import {
   Legend,
   BarElement,
 } from "chart.js";
+import OverrallList from "../components/overralllist/OverrallList";
+import RevenueList from '../components/revenuelist/RevenueList';
 
 ChartJS.register(
   CategoryScale,
@@ -55,7 +57,16 @@ const Dashboard = () => {
           </div>
         </div>
       </DashboardWrapperMain>
-      <DashboardWrapperRight>DashboardWrapperRight</DashboardWrapperRight>
+      <DashboardWrapperRight>
+        <div className="title mb">OverRallk</div>
+        <div className="mb">
+          <OverrallList />
+        </div>
+        <div className="title mb">Revenue by channel</div>
+        <div className="mb">
+          <RevenueList />
+        </div>
+      </DashboardWrapperRight>
     </DashboardWrapper>
   );
 };

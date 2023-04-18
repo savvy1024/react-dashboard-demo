@@ -1,0 +1,37 @@
+@use '../../scss/abstracts/' as *;
+@use 'sass:math';
+
+.overall-list{
+    & > * ~ *{
+        margin-top: math.div($spacing,2);
+
+    }
+
+    &_item{
+        
+        @include flex(center, flex-start);
+
+        &_icon{
+            @include flex();
+            --size:50px;
+            width: var(--size);
+            height:var(--size);
+            border-radius: 50%;
+            background-color: $bodyBg;
+            margin-right: $spacing;
+
+        }
+        i{
+            font-size: 1.9rem;
+            color:$black;
+
+        }
+
+    
+    }
+
+    &_info {
+        @include flex(flex-start, space-between);
+        flex-direction: column;
+    }
+}
