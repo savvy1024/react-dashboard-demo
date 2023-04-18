@@ -7,8 +7,11 @@ const Box = props => {
         purple:props.purple && 'box-purple',
         fullheight:props.fullheight && 'box-fullheight'
     }
+
+
   return (
-    <div className={Object.values(className).join('')}>
+    <div className={Object.values(className).join(' ')}>
+      
         {props.children}
     </div>
   )

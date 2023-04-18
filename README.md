@@ -11,3 +11,4 @@
     - SASS: https://sass-lang.com/
     - Boxicons: https://boxicons.com/
     - Figma: https://www.figma.com/
+    - chartjs https://www.chartjs.org

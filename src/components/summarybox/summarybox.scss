@@ -41,3 +41,19 @@
 
     }
 }
+
+.summary-box-special{
+    @include flex(center,space-between);
+    flex-direction: column;
+    height: 100%;
+
+    &_title{
+        font-weight: 700;
+        font-size: $fontSizeMedium;
+
+    }
+    &_value{
+        font-size: $fontSizeLarge;
+        font-weight: 700;
+    }
+}
